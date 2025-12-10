@@ -73,14 +73,20 @@ Chatbot/
 ```bash
 git clone https://github.com/Komalsingh-26/Railway-Ticket-Generating-Chatbot.git
 cd Railway-Ticket-Generating-Chatbot
+```
 
 ### 2️⃣ Install Required Dependencies
 ```bash
 pip install pandas pyttsx3 pillow speechrecognition pyaudio
-## ▶️ How to Run the Application
+```
 
+---
+
+## ▶️ How to Run the Application
 ```bash
 python chatbot.py
+```
+
 Make sure the following files are present in the **same folder**:
 
 - `scraped.csv`
@@ -104,14 +110,15 @@ The chatbot filters this dataset based on user input to display matching trains.
 
 ## 🧠 How the Chatbot Works
 
-- Uses **state-based conversation logic**  
-- Filters train data using **Pandas**  
-- GUI built entirely with **Tkinter**  
-- Voice responses generated using **pyttsx3**  
-- Automatically generates ticket text  
-- Simulates printing using popup dialog boxes  
+- Uses **state-based conversation logic**
+- Filters train data using **Pandas**
+- GUI built entirely with **Tkinter**
+- Voice responses generated using **pyttsx3**
+- Automatically generates ticket confirmation
+- Simulates printing using popup dialog boxes
 
 ---
+
 ## 🎯 Learning Outcomes
 
 This project demonstrates:
