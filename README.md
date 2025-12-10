@@ -81,68 +81,66 @@ pip install pandas pyttsx3 pillow speechrecognition pyaudio
 
 ```bash
 python chatbot.py
+Make sure the following files are present in the **same folder**:
 
-Make sure the following files are present in the same folder:
+- `scraped.csv`
+- `railway.jpg`
+- `logo.jpg`
 
-scraped.csv
+---
 
-railway.jpg
+## 🧪 Dataset Information
 
-logo.jpg
+The dataset **`scraped.csv`** includes:
 
-🧪 Dataset Information
+- Train Name  
+- Source Station (`SRC_station`)  
+- Destination Station (`DESC_station`)  
+- Travel Date (`start_date`)  
 
-The dataset scraped.csv includes:
+The chatbot filters this dataset based on user input to display matching trains.
 
-Train Name
+---
 
-Source Station (SRC_station)
+## 🧠 How the Chatbot Works
 
-Destination Station (DESC_station)
+- Uses **state-based conversation logic**  
+- Filters train data using **Pandas**  
+- GUI built entirely with **Tkinter**  
+- Voice responses generated using **pyttsx3**  
+- Automatically generates ticket text  
+- Simulates printing using popup dialog boxes  
 
-Travel Date (start_date)
-
-The chatbot filters this dataset based on user input to show relevant trains.
-
-🧠 How the Chatbot Works
-
-Uses state-based logic for conversation flow
-
-Reads and filters data using Pandas
-
-GUI built using Tkinter
-
-Voice responses via pyttsx3
-
-Generates ticket confirmation automatically
-
-Simulates printing using dialog boxes
-
-📸 UI Preview (Optional)
-
-You can add screenshots later like this:
-
-![Chatbot UI](./screenshots/ui.png)
-![Ticket Preview](./screenshots/ticket.png)
-
-🎯 Learning Outcomes
+---
+## 🎯 Learning Outcomes
 
 This project demonstrates:
 
-GUI development using Tkinter
+- GUI development with **Tkinter**
+- Data handling & filtering using **Pandas**
+- Voice-enabled application development in **Python**
+- State-machine based chatbot logic
+- Clean, modular, and maintainable code structure
 
-Data handling with Pandas
+---
 
-Voice-enabled applications in Python
+## 👩‍💻 Author
 
-Chatbot logic with conversation states
+**Komal Singh**  
+B.Tech Computer Science Student  
+Aspiring Software Developer | Python & Full Stack Enthusiast  
 
-Clean and modular code design
+🔗 GitHub Profile: https://github.com/Komalsingh-26
 
-👩‍💻 Author
+---
 
-Komal Singh
-B.Tech Computer Science Student
-Aspiring Software Developer | Python & Full Stack Enthusiast
+## ⭐ Feedback & Contributions
 
-🔗 GitHub: https://github.com/Komalsingh-26
+If you like this project:
+
+- ⭐ Star this repository
+- 🍴 Fork it to experiment
+- 🐞 Open issues for suggestions
+- 🤝 Pull requests are welcome
+
+> This project is built for learning and academic demonstration purposes.
