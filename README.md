@@ -1,4 +1,4 @@
-# 🤖 Railway Ticket Booking Chatbot
+# 🤖 Railway Ticket Generating Chatbot
 
 A **voice-enabled chatbot** built using Python, Tkinter GUI, and Pandas, designed to simulate a railway ticket booking assistant. This project allows users to interact with a bot via text input, fetch train details from a dataset, and generate printable tickets — all in a friendly, conversational UI.
 
