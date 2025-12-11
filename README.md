@@ -56,6 +56,7 @@ The chatbot guides users step-by-step through a ticket booking flow using **natu
 ---
 
 ## 📂 Project Structure
+```txt
 Chatbot/
 │
 ├── chatbot.py # Main chatbot application (GUI + logic)
@@ -65,8 +66,8 @@ Chatbot/
 └── README.md # Project documentation
 
 
----
 
+```
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the Repository
